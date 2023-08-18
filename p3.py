@@ -8,6 +8,6 @@ lst=["mango","apple","orange","watermelon"]
 l=list(filter(lambda x:"g" in x,lst))
 print(l)
  
-lst=["cat","man","table","pen","book","racchu","acchu","nagu"]
+lst=["cat","table","pen","book","racchu","acchu","nagu"]
 l1=list(filter(lambda x:"e" in x,lst))
 print(l1)
