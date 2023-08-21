@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 ser1=pd.Series([10,12,11,11])
-ser2=pd.Series([1,12,11,3,5])
+ser2=pd.Series([1,12,15,3,5])
  
 u=pd.Series(np.union1d(ser1,ser2))
 print("_______union_______",u)
