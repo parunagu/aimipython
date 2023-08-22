@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-data=pd.DataFrame([[10,11,12,13],[23,34,45,67]] ,columns=["maths","science","kannada","pms"])
+data=pd.DataFrame([[22,11,12,13],[23,34,45,67]] ,columns=["maths","science","kannada","pms"])
 print(data)
 print(data.sum())
 print(data.min())
